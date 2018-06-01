@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KOA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script src="js/flexible.js"></script>
+    <link rel="stylesheet" href="css/m.css">
+</head>
+<body>
+    <div class="sort">
+        <ul>
+            <li class="hot active" data-class="sort_hot"><span></span><i></i></li>
+            <li class="up" data-class="sort_up"><span></span><i></i></li>
+            <li class="time" data-class="sort_time"><span></span><i></i></li>
+        </ul>
+    </div>
+    <!-- sort -->
+    <div class="grid clearfix">
+        <div class="item">
+            <img src="img/01.jpg" alt="">
+            <p></p>
+            <i>NO.12312</i>
+            <span class="active">23132</span>
+        </div>
+        <div class="item">
+            <img src="img/02.jpg" alt="">
+            <p></p>
+            <i>NO.333333333333333333</i>
+            <span>3232</span>
+        </div>
+        <div class="item">
+            <img src="img/03.jpg" alt="">
+            <p></p>
+            <i>NO.12312</i>
+            <span>23132</span>
+        </div>
+        <div class="item">
+            <img src="img/04.jpg" alt="">
+            <p></p>
+            <i>NO.12312</i>
+            <span>23132</span>
+        </div>
+        <div class="item">
+            <img src="img/05.jpg" alt="">
+            <p></p>
+            <i>NO.12312</i>
+            <span>23132</span>
+        </div>
+        <div class="item">
+            <img src="img/06.jpg" alt="">
+            <p></p>
+            <i>NO.12312</i>
+            <span>23132</span>
+        </div>
+    </div>
+    <!-- grid -->
+    <div class="footer">
+        <ul>
+            <li class="search" data-id="search"><span>搜索</span></li>
+            <li class="add"><span>上传</span></li>
+            <li class="user" data-id="user"><span>查看</span></li>
+        </ul>
+    </div>
+    <!-- footer -->
+
+    <!-- 弹窗开始 -->
+    <div class="dialog_bg"></div>
+    <div class="dialog" id="search">
+        <h2><span>关闭</span>search picture id</h2>
+        <div class="diglog_content search_content">
+            <label><input type="text" placeholder="search picture id"></label>
+            <button>OK</button>
+        </div>
+    </div>
+    <!-- search -->
+    <div class="dialog" id="user">
+        <h2><span>关闭</span>my picture</h2>
+        <div class="diglog_content user_content">
+            <div class="item">
+                <img src="img/01.jpg" alt="">
+                <p></p>
+                <i>NO.12312</i>
+                <span class="active">23132</span>
+            </div>
+            <div class="status">
+                <span>上传</span>
+                <p><b>Submission Status:</b><i class="s3"></i></p>
+            </div>
+        </div>
+    </div>
+    <!-- user -->
+    <!-- 弹窗结束 -->
+
+    <!-- 大图开始 -->
+    <div class="detils">
+        <span class="detils_back"></span>
+        <img src="img/01.jpg" alt="">
+        <div class="detils_menu">
+            <ul class="info">
+                <li><i>KINGDOM</i>XXXXXXX</li>
+                <li><i>LORD NAME</i>XXXXXXX</li>
+            </ul>
+            <ul class="noup">
+                <li>NO.12312</li>
+                <li><i>23132</i></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 大图结束 -->
+    <div class="lock_wrp" id="lock">
+        <div class="lock">
+            <i></i><br />
+            为了更好的体验，请使用竖屏浏览
+        </div>
+    </div>
+    <!-- lock_wrp -->
+    <div class="backtop"></div>
+    <!-- backtop -->
+<script src="js/jquery.js"></script>
+<script src="js/masonry.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/m.js"></script>
+</body>
+</html>
