@@ -52,6 +52,7 @@ body {position: relative;padding:14.0rem 0 1.466667rem;background: url(i/body_bg
 .diglog_content {padding: 0.466667rem;background: #fff;overflow: hidden;}
 
 /*-- search --*/
+#search {top:50%;height: 4.9rem;margin-top:-2.95rem;}
 .search_content {text-align: center;}
 .search_content input {width:85%;border: 1px solid #d4d4d4;border-radius:3px;line-height: 0.866667rem;background: url(i/icon_input.png) 10px 0 no-repeat #d9d9d9; background-size:auto 100%;font-size:0.5rem;color:#9d9d9d;text-transform:uppercase;padding-left:15%}
 .search_content button {width: 5.2rem;height: 0.906667rem;background: url(i/icon_ok.png); background-size: 100% 100%;border: none;color: #fff;margin:0.72rem 0 0.133333rem;font-size:0.46875rem;}
